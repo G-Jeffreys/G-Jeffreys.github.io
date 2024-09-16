@@ -1,20 +1,19 @@
 ---
-title: "Teaching experience 1"
+title: "Summer 2018"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2014-spring-teaching-1
 venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
+date: 2018-06-01
+location: "Boston, MA"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
-
-Heading 1
+Introduction to Linear Algebra
 ======
+This course covered systems of linear equations, determinants, matrices, vector spaces and
+linear transformations, eigenvalues and eigenvectors, as well as some applications.
 
-Heading 2
+Calculus II
 ======
-
-Heading 3
-======
+This course covered logarithmic, exponential, and trigonometric functions, sequences and series, Taylor’s series
+with the remainder, and methods of integration.
