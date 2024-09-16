@@ -3,10 +3,12 @@ title: "Summer 2018"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
+venue: "Boston University, Department of Mathematics and Statistics"
 date: 2018-06-01
 location: "Boston, MA"
 ---
+
+These are the courses I taught at Boston University in the summer of 2018.
 
 Introduction to Linear Algebra
 ======
