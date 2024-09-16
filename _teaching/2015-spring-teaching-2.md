@@ -1,14 +1,14 @@
 ---
 title: "Summer 2019"
 collection: teaching
-type: "Lectures"
+type: "Undergraduate courses"
 permalink: /teaching/2015-spring-teaching-1
-venue: "University 1, Department"
+venue: "Boston University, Department of Mathematics and Statistics"
 date: 2019-06-01
 location: "Boston, MA"
 ---
 
-These are the undergraduate math courses I taught at Boston University during the summer of 2019.
+These are the courses I taught at Boston University during the summer of 2019.
 
 Multivariate Calculus
 ======
