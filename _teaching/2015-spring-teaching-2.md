@@ -8,7 +8,7 @@ date: 2019-06-01
 location: "Boston, MA"
 ---
 
-These are the courses I taught at Boston University during the summer of 2019.
+The courses I taught at Boston University during the summer of 2019: Multivariate Calculus and Discrete Math.
 
 Multivariate Calculus
 ======
