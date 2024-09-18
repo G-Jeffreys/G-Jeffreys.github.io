@@ -8,7 +8,7 @@ date: 2018-06-01
 location: "Boston, MA"
 ---
 
-These are the courses I taught at Boston University in the summer of 2018.
+The courses I taught at Boston University in the summer of 2018: Linear Algebra and Calculus II.
 
 Introduction to Linear Algebra
 ======
