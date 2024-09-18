@@ -1,5 +1,6 @@
 ---
 title: "Quantum Finite Automata and Quiver Algebras"
+coauthor: "Siu-Cheong Lau"
 collection: publications
 category: manuscripts
 permalink: /publication/2010-10-01-paper-title-number-2
