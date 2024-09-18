@@ -1,5 +1,6 @@
 ---
 title: "K&auml;hler Geometry of Framed Quiver Moduli and Machine Learning"
+coauthor: "Siu-Cheong Lau"
 collection: publications
 category: manuscripts
 permalink: /publication/2015-10-01-paper-title-number-3
