@@ -16,30 +16,36 @@ Education
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* 2023 - 2024: Math Tutor
+  * Varsity Tutors
+  * Duties includes: Tutoring graduate, undergraduate, and high school students in advanced mathematics
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* 2022 - 2023: Part Time Math Lecturer
+  * Northeastern University
+  * Duties included: Lecturing, Creating Class Materials, Grading Exams and Homeworks, Holding Office Hours
+  * Supervisor: Dr. Beth Smith
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* 2017 - 2022: Teaching Assistant
+  * Boston University
+  * Duties included: Leading Recitations, Grading Exams and Homeworks, Holding Office Hours
+  * Supervisor: Professor Panth
+
+* Summer 2015: High Performance Computing Research Assistant
+  * University of Maryland - Baltimore Country
+  * Duties included: Parallelizing statistical software for the U.S. Census Bureau
+  * Supervisor: Professor Adragni
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
+* Mathematics
+* Research
+* Python
+  * Numpy
+  * Pandas
+* Data Science
+* Machine Learning
+  * NLP (Natural Language Processing)
+    
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
@@ -60,4 +66,4 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Former President of the Boston University branch of the AMS Graduate Student organization
