@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "George Jeffreys / Site Title"
+title                    : "George Jeffreys"
 title_separator          : "-"
 name                     : &name "George Jeffreys"
 description              : &description "personal description"
@@ -22,7 +22,7 @@ repository               : "g-jeffreys/g-jeffreys.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "George Jeffreys"
+  name             : "Dr. George Jeffreys"
   pronouns         : "he/him" # example: "she/her"  
   bio              : "Math Ph.D. with an interest in Machine Learning"
   location         : "Boston, MA"
@@ -57,7 +57,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : "George Jeffreys" # Username
+  linkedin         : "george-jeffreys-555718b7" # Username
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
