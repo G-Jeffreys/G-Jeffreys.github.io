@@ -36,4 +36,4 @@ Outside of my professional life, I enjoy reading and biking, which helps me stay
 
 Let’s Connect
 ======
-I am always open to new opportunities and collaborations. Feel free to reach out to me at georgej@bu.edu or connect with me on [LinkedIn/Twitter/Other Social Media].
+I am always open to new opportunities and collaborations. Feel free to reach out to me at georgej@bu.edu or connect with me on LinkedIn.
