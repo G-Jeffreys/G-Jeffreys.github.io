@@ -8,7 +8,7 @@ date: 2021-06-01
 location: "Boston, MA"
 ---
 
-These are the courses I taught at Boston University in the summer of 2021.
+The courses I taught at Boston University in the summer of 2021: Discrete Math and Applications of Math for Personal Finance.
 
 Discrete Mathematics
 ======
