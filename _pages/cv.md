@@ -18,7 +18,7 @@ Work experience
 ======
 * 2024 - Current: AI Trainer
   * DataAnnotation
-  * Duties include: creating STEM/coding prompts for evaluating LLM responses, evaluating and correcting LLM responses to STEM/coding prompts, quality control testing the work of other trainers
+  * Duties include: Creating STEM/coding prompts for evaluating LLM responses, Evaluating and correcting LLM responses to STEM/coding prompts, Quality control testing the work of other trainers
 
 * 2023 - 2024: Math Tutor
   * Varsity Tutors
