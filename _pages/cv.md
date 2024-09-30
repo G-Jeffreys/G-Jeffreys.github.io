@@ -16,9 +16,13 @@ Education
 
 Work experience
 ======
+* 2024 - Current: AI Trainer
+  * DataAnnotation
+  * Duties include: creating STEM/coding prompts for evaluating LLM responses, evaluating and correcting LLM responses to STEM/coding prompts, quality control testing the work of other trainers
+
 * 2023 - 2024: Math Tutor
   * Varsity Tutors
-  * Duties includes: Tutoring graduate, undergraduate, and high school students in advanced mathematics
+  * Duties included: Tutoring graduate, undergraduate, and high school students in advanced mathematics
 
 * 2022 - 2023: Part Time Math Lecturer
   * Northeastern University
