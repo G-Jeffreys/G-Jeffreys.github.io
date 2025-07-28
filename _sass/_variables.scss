@@ -28,8 +28,8 @@ $bodoni                     : "Bodoni MT", serif;
 $calisto                    : "Calisto MT", serif;
 $garamond                   : Garamond, serif;
 
-$global-font-family         : $sans-serif;
-$header-font-family         : $sans-serif;
+$global-font-family         : $garamond;
+$header-font-family         : $garamond;
 $caption-font-family        : $serif;
 
 /* type scale */
@@ -86,7 +86,7 @@ $cyan: #17a2b8;
    Theme Colors
    ========================================================================== */
 
-$primary-color: $blue;
+$primary-color: #4a6b8a;
 $secondary-color: $gray-600;
 $success-color: $green;
 $info-color: $cyan;
@@ -99,7 +99,7 @@ $dark-color: $gray-800;
    Body
    ========================================================================== */
 
-$body-bg: $white;
+$body-bg: #faf8f2;
 $body-color: $gray-900;
 $text-muted: $gray-600;
 $border-color: $gray-300;
