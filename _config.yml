@@ -11,7 +11,7 @@ locale                   : "en-US"
 title                    : "George Jeffreys"
 title_separator          : "-"
 name                     : &name "George Jeffreys"
-description              : &description "personal description"
+description              : &description "AI Engineer & Full-Stack Developer • Transforming Ideas into Intelligent Solutions"
 url                      : https://g-jeffreys.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "g-jeffreys/g-jeffreys.github.io"
@@ -22,15 +22,15 @@ repository               : "g-jeffreys/g-jeffreys.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Dr. George Jeffreys"
+  name             : "George Jeffreys"
   pronouns         : "he/him" # example: "she/her"  
-  bio              : "Math Ph.D. with an interest in Machine Learning"
+  bio              : "AI Engineer & Full-Stack Developer in Training at Gauntlet AI • Math PhD turned Code Architect"
   location         : "Boston, MA"
-  employer         : "Varsity Tutors"
+  employer         : "Gauntlet AI (Bootcamp)"
   uri              : # URL
   email            : "georgej@bu.edu" 
 
-  # Academic websites
+  # Academic websites - keeping minimal academic presence
   arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : #"https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
   impactstory      : # URL
@@ -73,14 +73,16 @@ author:
   youtube          : # Username
   zhihu            : # URL
 
-# Publication Category - The following the list of publication categories and their headings
-publication_category:
-  #books:
-  #  title: 'Books'
-  manuscripts:
-    title: 'Journal Articles'    
-  conferences:
-    title: 'Conference Papers'
+# Project Category - The following the list of project categories and their headings
+project_category:
+  ai_ml:
+    title: 'AI & Machine Learning'    
+  fullstack:
+    title: 'Full-Stack Applications'
+  data:
+    title: 'Data Science & Analytics'
+  tools:
+    title: 'Developer Tools & APIs'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -119,13 +121,11 @@ atom_feed:
   hide                   : false     # change to true to hide the RSS feed in the footer
   path                   : # blank (default) uses feed.xml
 
-
 # SEO Related
 google_site_verification :
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
-
 
 # Social Sharing
 #twitter:
@@ -142,13 +142,11 @@ social:
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
 
-
 # Analytics
 analytics:
   provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
   google:
     tracking_id          :
-
 
 # Reading Files
 include:
@@ -186,14 +184,12 @@ keep_files:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-
 # Conversion
 markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-
 
 # Markdown Processing
 kramdown:
@@ -206,22 +202,17 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
-
 # These settings control the types of collections used by the template
 collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
-  publications:
+  projects:
     output: true
     permalink: /:collection/:path/
   portfolio:
     output: true
     permalink: /:collection/:path/
-  talks:
+  blog:
     output: true
     permalink: /:collection/:path/
-
 
 # These settings control how pages and collections are included in the site
 defaults:
@@ -243,19 +234,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
+  # _projects
   - scope:
       path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-  # _publications
-  - scope:
-      path: ""
-      type: publications
+      type: projects
     values:
       layout: single
       author_profile: true
@@ -270,28 +252,25 @@ defaults:
       author_profile: true
       share: true
       comment: true
-  # _talks
+  # _blog
   - scope:
       path: ""
-      type: talks
+      type: blog
     values:
-      layout: talk
+      layout: single
       author_profile: true
       share: true
-
 
 # Sass/SCSS
 sass:
   sass_dir: _sass
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
-
 # Outputting
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
+timezone: America/New_York # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Plugins
 plugins:
@@ -307,7 +286,6 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jemoji
-
 
 # Archives
 #  Type
@@ -336,7 +314,6 @@ tag_archive:
 #   permalinks:
 #     category: /categories/:name/
 #     tag: /tags/:name/
-
 
 # HTML Compression
 # - http://jch.penibelst.de/

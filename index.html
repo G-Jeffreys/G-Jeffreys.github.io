@@ -1,0 +1,453 @@
+---
+layout: single
+author_profile: true
+classes: wide
+---
+
+<div class="hero-section">
+  <div class="hero-content">
+    <h1 class="hero-title">
+      Building the Future with <span class="highlight">AI</span> & <span class="highlight">Code</span>
+    </h1>
+    <p class="hero-subtitle">
+      Mathematics PhD turned AI Engineer • Transforming complex problems into intelligent solutions
+    </p>
+    <div class="hero-stats">
+      <div class="stat">
+        <span class="stat-number">100+</span>
+        <span class="stat-label">Hours of AI Development</span>
+      </div>
+      <div class="stat">
+        <span class="stat-number">10+</span>
+        <span class="stat-label">Projects Completed</span>
+      </div>
+      <div class="stat">
+        <span class="stat-number">5+</span>
+        <span class="stat-label">Technologies Mastered</span>
+      </div>
+    </div>
+    <div class="hero-cta">
+      <a href="/projects/" class="btn btn--primary btn--large">View My Projects</a>
+      <a href="/contact/" class="btn btn--outline btn--large">Let's Connect</a>
+    </div>
+  </div>
+</div>
+
+<section class="skills-preview">
+  <div class="container">
+    <h2>Core Technologies</h2>
+    <div class="tech-stack">
+      <div class="tech-category">
+        <h3>AI & Machine Learning</h3>
+        <div class="tech-tags">
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">TensorFlow</span>
+          <span class="tech-tag">PyTorch</span>
+          <span class="tech-tag">LangChain</span>
+          <span class="tech-tag">OpenAI API</span>
+        </div>
+      </div>
+      <div class="tech-category">
+        <h3>Full-Stack Development</h3>
+        <div class="tech-tags">
+          <span class="tech-tag">React</span>
+          <span class="tech-tag">Next.js</span>
+          <span class="tech-tag">Node.js</span>
+          <span class="tech-tag">FastAPI</span>
+          <span class="tech-tag">PostgreSQL</span>
+        </div>
+      </div>
+      <div class="tech-category">
+        <h3>Cloud & DevOps</h3>
+        <div class="tech-tags">
+          <span class="tech-tag">AWS</span>
+          <span class="tech-tag">Docker</span>
+          <span class="tech-tag">Kubernetes</span>
+          <span class="tech-tag">CI/CD</span>
+          <span class="tech-tag">Git</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="featured-projects">
+  <div class="container">
+    <h2>Featured Projects</h2>
+    <div class="projects-grid">
+      <!-- Projects will be dynamically loaded from _projects collection -->
+      {% assign featured_projects = site.projects | where: "featured", true | limit: 3 %}
+      {% if featured_projects.size == 0 %}
+        {% assign featured_projects = site.projects | limit: 3 %}
+      {% endif %}
+      
+      {% for project in featured_projects %}
+        <div class="project-card">
+          <div class="project-image">
+            {% if project.image %}
+              <img src="{{ project.image }}" alt="{{ project.title }}">
+            {% else %}
+              <div class="project-placeholder">{{ project.category | upcase }}</div>
+            {% endif %}
+          </div>
+          <div class="project-content">
+            <h3>{{ project.title }}</h3>
+            <p>{{ project.excerpt | truncate: 120 }}</p>
+            <div class="project-tech">
+              {% for tech in project.technologies limit: 3 %}
+                <span class="tech-tag small">{{ tech }}</span>
+              {% endfor %}
+            </div>
+            <div class="project-links">
+              <a href="{{ project.url }}" class="btn btn--small">Learn More</a>
+              {% if project.github %}
+                <a href="{{ project.github }}" class="btn btn--outline btn--small" target="_blank">
+                  <i class="fab fa-github"></i> Code
+                </a>
+              {% endif %}
+              {% if project.demo %}
+                <a href="{{ project.demo }}" class="btn btn--outline btn--small" target="_blank">
+                  <i class="fas fa-external-link-alt"></i> Demo
+                </a>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+    <div class="text-center">
+      <a href="/projects/" class="btn btn--primary">View All Projects</a>
+    </div>
+  </div>
+</section>
+
+<section class="about-preview">
+  <div class="container">
+    <div class="about-content">
+      <div class="about-text">
+        <h2>From Mathematical Theory to Production Code</h2>
+        <p>
+          Currently immersed in <strong>Gauntlet AI</strong>, one of the most competitive AI-first bootcamps in the industry. 
+          My unique background combines theoretical depth from a Mathematics PhD with hands-on experience building 
+          production-ready AI applications.
+        </p>
+        <p>
+          I specialize in transforming complex mathematical concepts into scalable software solutions, 
+          bridging the gap between research and real-world implementation.
+        </p>
+        <a href="/about/" class="btn btn--outline">Learn More About My Journey</a>
+      </div>
+      <div class="about-visual">
+        <div class="journey-path">
+          <div class="journey-step">
+            <div class="step-icon">🎓</div>
+            <div class="step-content">
+              <h4>PhD Mathematics</h4>
+              <p>Boston University</p>
+            </div>
+          </div>
+          <div class="journey-arrow">→</div>
+          <div class="journey-step">
+            <div class="step-icon">🚀</div>
+            <div class="step-content">
+              <h4>Gauntlet AI</h4>
+              <p>Intensive Bootcamp</p>
+            </div>
+          </div>
+          <div class="journey-arrow">→</div>
+          <div class="journey-step">
+            <div class="step-icon">💼</div>
+            <div class="step-content">
+              <h4>SaaS Engineer</h4>
+              <p>Your Company?</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-section">
+  <div class="container">
+    <div class="cta-content">
+      <h2>Ready to Build Something Amazing?</h2>
+      <p>
+        I'm actively seeking opportunities with forward-thinking SaaS companies. 
+        Let's discuss how my unique background can drive your next breakthrough.
+      </p>
+      <div class="cta-buttons">
+        <a href="/contact/" class="btn btn--primary btn--large">Get In Touch</a>
+        <a href="/files/George_Jeffreys_Resume.pdf" class="btn btn--outline btn--large" target="_blank">
+          <i class="fas fa-download"></i> Download Resume
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+/* Hero Section Styles */
+.hero-section {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 4rem 2rem;
+  text-align: center;
+  margin: -2rem -2rem 2rem -2rem;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.hero-title .highlight {
+  color: #ffd700;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.hero-subtitle {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+  opacity: 0.9;
+}
+
+.hero-stats {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem 0;
+  flex-wrap: wrap;
+}
+
+.stat {
+  text-align: center;
+}
+
+.stat-number {
+  display: block;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #ffd700;
+}
+
+.stat-label {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.hero-cta {
+  margin-top: 2rem;
+}
+
+.hero-cta .btn {
+  margin: 0 0.5rem;
+}
+
+/* Button Styles */
+.btn--large {
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+}
+
+.btn--outline {
+  background: transparent;
+  border: 2px solid currentColor;
+  color: inherit;
+}
+
+.btn--outline:hover {
+  background: currentColor;
+  color: white;
+}
+
+/* Skills Preview */
+.skills-preview {
+  padding: 4rem 0;
+  background: #f8f9fa;
+}
+
+.tech-stack {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.tech-category h3 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.tech-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tech-tag {
+  background: #667eea;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.tech-tag.small {
+  padding: 0.3rem 0.8rem;
+  font-size: 0.8rem;
+}
+
+/* Featured Projects */
+.featured-projects {
+  padding: 4rem 0;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.project-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-image {
+  height: 200px;
+  background: #667eea;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-placeholder {
+  color: white;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.project-content {
+  padding: 1.5rem;
+}
+
+.project-links {
+  margin-top: 1rem;
+}
+
+.project-links .btn {
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* About Preview */
+.about-preview {
+  padding: 4rem 0;
+  background: #f8f9fa;
+}
+
+.about-content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 3rem;
+  align-items: center;
+}
+
+.journey-path {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.journey-step {
+  text-align: center;
+  flex: 1;
+  min-width: 150px;
+}
+
+.step-icon {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.step-content h4 {
+  margin: 0.5rem 0 0.25rem 0;
+  color: #333;
+}
+
+.journey-arrow {
+  font-size: 2rem;
+  color: #667eea;
+  font-weight: bold;
+}
+
+/* CTA Section */
+.cta-section {
+  background: #333;
+  color: white;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.cta-buttons {
+  margin-top: 2rem;
+}
+
+.cta-buttons .btn {
+  margin: 0 0.5rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2rem;
+  }
+  
+  .hero-stats {
+    gap: 1rem;
+  }
+  
+  .about-content {
+    grid-template-columns: 1fr;
+  }
+  
+  .journey-path {
+    justify-content: center;
+  }
+  
+  .journey-arrow {
+    display: none;
+  }
+  
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-section {
+    padding: 2rem 1rem;
+  }
+  
+  .hero-cta .btn,
+  .cta-buttons .btn {
+    display: block;
+    margin: 0.5rem auto;
+    width: 100%;
+    max-width: 250px;
+  }
+}
+</style> 
