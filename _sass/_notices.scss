@@ -16,13 +16,14 @@
   font-family: $global-font-family;
   font-size: $type-size-6 !important;
   text-indent: initial; /* override*/
-  background-color: mix(#fff, $notice-color, 90%);
+  background-color: $light-color;
   border-radius: $border-radius;
-  box-shadow: 0 1px 1px rgba($notice-color, 0.25);
+  border: 1px solid $border-color;
 
   h4 {
     margin-top: 0 !important; /* override*/
     margin-bottom: 0.75em;
+    color: $notice-color;
   }
 
   @at-root .page__content #{&} h4 {
@@ -44,15 +45,15 @@
   }
 
   a {
-    color: $notice-color;
+    color: darken($notice-color, 15%);
 
     &:hover {
-      color: mix(#000, $notice-color, 40%);
+      color: darken($notice-color, 40%);
     }
   }
 
   code {
-    background-color: mix(#fff, $notice-color, 95%)
+    background-color: $white;
   }
 
   ul {
@@ -65,7 +66,7 @@
 /* Default notice */
 
 .notice {
-  @include notice($light-gray);
+  @include notice($secondary-color);
 }
 
 /* Primary notice */

@@ -21,15 +21,36 @@
     @include span(10 of 12 last);
     @include prefix(0.5 of 12);
     @include suffix(2 of 12);
+    /* calculate a negative margin to pull page content up */
+    margin-top: -($masthead-height / 1.5);
+    padding-bottom: 2em;
+
+    .page__wrapper & {
+      padding-left: $right-sidebar-width-wide;
+    }
   }
 
   .page__inner-wrap {
-    @include full();
+    float: left;
+    margin-top: $masthead-height;
+    width: 100%;
+    clear: both;
 
     .page__content,
     .page__meta,
     .page__share {
-      @include full();
+      position: relative;
+      float: left;
+      margin-left: gutter();
+      margin-right: gutter();
+      width: span(12);
+      clear: both;
+
+      @include susy-breakpoint($large) {
+        width: span(10);
+        margin-left: span(1 wide);
+        margin-right: span(1 wide);
+      }
     }
   }
 }
@@ -126,7 +147,7 @@
     animation-delay: 0.25s;
 
     a {
-      color: #fff;
+      color: $white;
     }
 
     .wrapper {
@@ -142,8 +163,8 @@
     .page__meta,
     .page__lead,
     .btn {
-      color: #fff;
-      text-shadow: 1px 1px 4px rgba(#000, 0.5);
+      color: $white;
+      text-shadow: 1px 1px 4px rgba($black, 0.5);
     }
 
     .page__lead {
@@ -172,10 +193,10 @@
   right: 0;
   margin: 0 auto;
   padding: 2px 5px;
-  color: #fff;
+  color: $white;
   font-family: $caption-font-family;
   font-size: $type-size-7;
-  background: #000;
+  background: $black;
   text-align: right;
   z-index: 5;
   opacity: 0.5;
@@ -186,7 +207,7 @@
   }
 
   a {
-    color: #fff;
+    color: $white;
     text-decoration: none;
   }
 }
@@ -227,8 +248,8 @@
 
 .page__meta {
   margin-top: 2em;
-  color: mix(#fff, $gray, 25%);
-  font-family: $sans-serif;
+  color: $text-muted;
+  font-family: $caption-font-family;
   font-size: $type-size-6;
 
   p {
@@ -236,7 +257,7 @@
   }
 
   a {
-    color: inherit;
+    color: $text-muted;
   }
 }
 
@@ -244,6 +265,23 @@
   margin-bottom: 10px;
   font-size: $type-size-6;
   text-transform: uppercase;
+}
+
+.page__date {
+  display: inline-block;
+  margin-right: 1em;
+
+  &:before {
+    margin-right: 0.5em;
+  }
+}
+
+.page__reading-time {
+  display: inline-block;
+
+  &:before {
+    margin-right: 0.5em;
+  }
 }
 
 
@@ -266,13 +304,15 @@
   margin-right: 5px;
   margin-bottom: 8px;
   padding: 5px 10px;
+  color: $primary-color;
   text-decoration: none;
-  border: 1px solid $light-gray;
+  border: 1px solid $border-color;
   border-radius: $border-radius;
 
   &:hover {
     text-decoration: none;
-    color: $link-color-hover;
+    color: $white;
+    background: $primary-color;
   }
 }
 
