@@ -102,6 +102,7 @@ $dark-color: $gray-800;
 $body-bg: $white;
 $body-color: $gray-900;
 $text-muted: $gray-600;
+$border-color: $gray-300;
 
 /*
    Links
@@ -112,6 +113,8 @@ $link-decoration: none;
 $link-hover-color: darken($link-color, 15%);
 $link-color-visited: lighten($link-color, 15%);
 $link-hover-decoration: underline;
+$masthead-link-color: $primary-color;
+$masthead-link-color-hover: darken($primary-color, 15%);
 
 /*
    Code
