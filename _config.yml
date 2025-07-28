@@ -148,6 +148,9 @@ analytics:
   google:
     tracking_id          :
 
+# Minimal Mistakes skin
+minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
 # Reading Files
 include:
   - .htaccess
