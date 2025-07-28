@@ -145,6 +145,7 @@
     background-position: center;
     animation: intro 0.3s both;
     animation-delay: 0.25s;
+    box-shadow: $box-shadow;
 
     a {
       color: $white;
