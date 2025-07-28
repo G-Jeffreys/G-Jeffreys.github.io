@@ -175,7 +175,7 @@
 .greedy-nav {
   position: relative;
   min-width: 250px;
-  background: $background-color;
+  background: $white;
 
   a {
     display: block;
@@ -269,7 +269,7 @@
 
       &:hover {
         color: $masthead-link-color-hover;
-        background: $light-color;
+        background: $gray-100;
       }
     }
 
@@ -281,7 +281,7 @@
       width: 0;
       border-style: solid;
       border-width: 0 10px 10px;
-      border-color: $border-color transparent;
+      border-color: $gray-300 transparent;
       display: block;
       z-index: 0;
     }
@@ -373,7 +373,7 @@
 
 .toc {
   font-family: $sans-serif-narrow;
-  color: $gray;
+  color: $text-muted;
   text-transform: uppercase;
   letter-spacing: 1px;
   background-color: $white;
@@ -400,7 +400,7 @@
   a {
     display: block;
     padding: 0.5rem 1rem;
-    color: $gray;
+    color: $text-muted;
     font-size: $type-size-7;
     font-weight: bold;
     line-height: 1.5;
@@ -408,7 +408,7 @@
 
     &:hover {
       color: $black;
-      background: $light-color;
+      background: $gray-100;
     }
   }
 
