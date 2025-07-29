@@ -15,7 +15,7 @@ My journey from mathematical research to AI engineering, showcasing a unique ble
 ## 🚀 Current Experience
 
 ### **AI Engineering Bootcamp Student**
-**Gauntlet AI** • *September 2024 - Present*  
+**Gauntlet AI** • *June 2025 - Present*  
 *Boston, MA (Remote)*
 
 Currently enrolled in one of the most competitive AI-first coding bootcamps in the industry, focusing on production-ready AI application development.
@@ -38,7 +38,7 @@ Currently enrolled in one of the most competitive AI-first coding bootcamps in t
 ## 💼 Previous Professional Experience
 
 ### **AI Trainer & Prompt Engineer**
-**DataAnnotation** • *March 2024 - August 2024*  
+**DataAnnotation** • *January 2024 - June 2025*  
 *Remote*
 
 Specialized in evaluating and improving large language model responses for STEM and coding applications.
@@ -55,7 +55,7 @@ Specialized in evaluating and improving large language model responses for STEM 
 - Developed expertise in AI alignment and responsible AI development
 
 ### **Mathematics Tutor**
-**Varsity Tutors** • *June 2023 - February 2024*  
+**Varsity Tutors** • *September 2023 - June 2025*  
 *Boston, MA (Remote/Hybrid)*
 
 Provided personalized instruction to students from high school through graduate level in advanced mathematics.

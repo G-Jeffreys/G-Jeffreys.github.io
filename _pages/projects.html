@@ -11,12 +11,6 @@ classes: wide
   <p>A showcase of AI-powered applications, full-stack solutions, and innovative projects built during my journey at Gauntlet AI and beyond.</p>
 </div>
 
-<div class="project-filters">
-  <button class="filter-btn active" data-filter="all">All Projects</button>
-  <button class="filter-btn" data-filter="fullstack">Full-Stack</button>
-  <button class="filter-btn" data-filter="tools">Tools & APIs</button>
-</div>
-
 <div class="projects-container">
   {% assign projects = site.projects | sort: 'date' | reverse %}
   {% if projects.size == 0 %}
@@ -141,32 +135,6 @@ classes: wide
   margin: 0 auto;
 }
 
-.project-filters {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 3rem;
-  gap: 1rem;
-  flex-wrap: wrap;
-}
-
-.filter-btn {
-  background: #f8f9fa;
-  border: 2px solid #dee2e6;
-  color: #495057;
-  padding: 0.5rem 1rem;
-  border-radius: 25px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  font-weight: 500;
-}
-
-.filter-btn:hover,
-.filter-btn.active {
-  background: #667eea;
-  border-color: #667eea;
-  color: white;
-}
-
 .projects-container {
   display: grid;
   gap: 2rem;
@@ -174,10 +142,6 @@ classes: wide
 
 .project-item {
   transition: opacity 0.3s ease;
-}
-
-.project-item.hidden {
-  display: none;
 }
 
 .project-card {
@@ -409,31 +373,4 @@ classes: wide
     max-width: 250px;
   }
 }
-</style>
-
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  const filterBtns = document.querySelectorAll('.filter-btn');
-  const projectItems = document.querySelectorAll('.project-item');
-  
-  filterBtns.forEach(btn => {
-    btn.addEventListener('click', function() {
-      const filter = this.getAttribute('data-filter');
-      
-      // Update active button
-      filterBtns.forEach(b => b.classList.remove('active'));
-      this.classList.add('active');
-      
-      // Filter projects
-      projectItems.forEach(item => {
-        const category = item.getAttribute('data-category');
-        if (filter === 'all' || category === filter) {
-          item.classList.remove('hidden');
-        } else {
-          item.classList.add('hidden');
-        }
-      });
-    });
-  });
-});
-</script> 
+</style> 

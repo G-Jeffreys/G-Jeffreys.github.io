@@ -4,7 +4,7 @@ excerpt: "Research-focused writing enhancement platform built with Next.js, feat
 category: fullstack
 technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Supabase", "Clerk Auth", "Stripe", "PostHog", "Drizzle ORM"]
 github: "https://github.com/G-Jeffreys/mckays-app-template"
-demo: "#" # Update when deployed
+demo: "https://wordwise-one.vercel.app/documents"
 featured: true
 status: completed
 date: 2025-06-01
@@ -19,6 +19,10 @@ highlights:
 ## Project Overview
 
 WordWise is a comprehensive academic writing assistant platform that serves as a research-focused alternative to Grammarly. Built specifically for scholarly writing, academic papers, and research documentation, this platform provides advanced grammar correction, style guidance, and citation assistance tailored for academic communities.
+
+## 🎥 Platform Demo
+
+<div style="position: relative; padding-bottom: 57.75401069518716%; height: 0; margin: 2rem 0;"><iframe src="https://www.loom.com/embed/1e308d782661466da4baf88c7028ac98?sid=b633ab7a-ae5a-4edf-b7e1-acf300520c3c" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 ## 🎯 Problem & Solution
 
