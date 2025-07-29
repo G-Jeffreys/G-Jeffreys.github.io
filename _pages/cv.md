@@ -12,7 +12,7 @@ classes: wide
   <h1>George Jeffreys</h1>
   <div class="cv-tagline">AI Engineer & Full-Stack Developer</div>
   <div class="cv-contact">
-    <span><i class="fas fa-envelope"></i> georgej@bu.edu</span>
+    <span><i class="fas fa-envelope"></i> george.jeffreys@gauntletai.com</span>
     <span><i class="fas fa-map-marker-alt"></i> Boston, MA</span>
     <span><i class="fab fa-linkedin"></i> <a href="https://linkedin.com/in/george-jeffreys-555718b7" target="_blank">LinkedIn</a></span>
     <span><i class="fab fa-github"></i> <a href="https://github.com/G-Jeffreys" target="_blank">GitHub</a></span>
@@ -104,7 +104,7 @@ Taught undergraduate mathematics courses with emphasis on practical applications
 - **Foundation**: Strong mathematical and analytical reasoning background
 
 ### **Gauntlet AI Bootcamp**
-**Currently Enrolled** • *2024*
+**2025**
 - **Program**: Intensive AI-first coding bootcamp (highly competitive admission)
 - **Focus**: Production-ready AI application development
 - **Skills**: Modern development practices, AI/ML integration, cloud deployment

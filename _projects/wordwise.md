@@ -1,30 +1,30 @@
 ---
-title: "WordWise - Full-Stack Learning Platform"
-excerpt: "Modern learning platform built with Next.js, featuring AI-powered content, user authentication, payment processing, and analytics. Production-ready SaaS application demonstrating enterprise-grade architecture."
+title: "WordWise - Academic Writing Assistant"
+excerpt: "Research-focused writing enhancement platform built with Next.js, featuring AI-powered grammar correction, academic style guidance, and citation assistance. An academic-grade alternative to Grammarly for scholarly writing."
 category: fullstack
 technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Supabase", "Clerk Auth", "Stripe", "PostHog", "Drizzle ORM"]
 github: "https://github.com/G-Jeffreys/mckays-app-template"
 demo: "#" # Update when deployed
 featured: true
 status: completed
-date: 2024-11-15
+date: 2025-06-01
 highlights:
+  - "Academic-grade writing enhancement platform"
+  - "AI-powered grammar and style analysis for scholarly writing"
+  - "Citation and reference management integration"
   - "Complete SaaS architecture with authentication and payments"
   - "Modern Next.js 14 with App Router and Server Actions"
-  - "Type-safe database operations with Drizzle ORM"
-  - "Production-ready deployment configuration"
-  - "Integrated analytics and user management"
 ---
 
 ## Project Overview
 
-WordWise is a comprehensive full-stack learning platform that demonstrates modern SaaS application development. Built using cutting-edge technologies and following industry best practices, this project showcases the complete development lifecycle from authentication to payment processing.
+WordWise is a comprehensive academic writing assistant platform that serves as a research-focused alternative to Grammarly. Built specifically for scholarly writing, academic papers, and research documentation, this platform provides advanced grammar correction, style guidance, and citation assistance tailored for academic communities.
 
 ## 🎯 Problem & Solution
 
-**Challenge**: Create a scalable, production-ready learning platform that handles user management, content delivery, payments, and analytics while maintaining excellent developer experience and performance.
+**Challenge**: Academic writers need more than basic grammar checking - they require sophisticated style analysis, discipline-specific writing guidance, citation management, and formatting assistance that general writing tools don't provide.
 
-**Solution**: Built a comprehensive SaaS platform using modern React patterns, serverless architecture, and enterprise-grade services for authentication, payments, and data management.
+**Solution**: Built a specialized academic writing platform that combines AI-powered language analysis with scholarly writing best practices, offering researchers and students a comprehensive tool for producing high-quality academic content.
 
 ## 🛠 Technical Architecture
 

@@ -7,7 +7,7 @@ github: "https://github.com/G-Jeffreys/SoreLosers"
 demo: "#" # Update if deployed/available for play
 featured: true
 status: completed
-date: 2024-10-01
+date: 2025-07-01
 highlights:
   - "Full game developed in Godot Engine with custom mechanics"
   - "Multiplayer networking implementation"

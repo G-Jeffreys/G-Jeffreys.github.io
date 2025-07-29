@@ -1,30 +1,30 @@
 ---
-title: "LibreOffice Core - Document Tab Enhancement"
-excerpt: "Open source contribution to LibreOffice Core implementing document tab functionality. Demonstrates C++ systems programming, UI/UX design, and collaborative open source development."
+title: "LibreOffice Cloud Integration Suite"
+excerpt: "Comprehensive cloud service integration for LibreOffice Core, seamlessly connecting Google Drive, Dropbox, and Slack. Enhanced productivity through direct file synchronization, collaborative editing, and team communication features."
 category: tools
-technologies: ["C++", "LibreOffice Core", "Qt/GTK", "UI/UX Design", "Open Source Development", "Cross-Platform Development"]
-github: "https://github.com/G-Jeffreys/core/tree/feature/document-tab"
+technologies: ["C++", "LibreOffice Core", "Google Drive API", "Dropbox API", "Slack API", "Qt/GTK", "OAuth 2.0", "Cloud Storage"]
+github: "https://github.com/G-Jeffreys/core/tree/feature/cloud-integration"
 demo: "#" # Open source contribution
 featured: true
-status: in-progress
-date: 2024-09-01
+status: completed
+date: 2025-07-01
 highlights:
-  - "Direct contribution to major open source office suite"
+  - "Direct integration with Google Drive, Dropbox, and Slack"
+  - "Seamless cloud file synchronization and collaboration"
+  - "Real-time team communication within LibreOffice"
   - "Complex C++ systems programming in large codebase"
-  - "UI/UX enhancement affecting millions of users"
   - "Cross-platform desktop application development"
-  - "Collaborative development with international team"
 ---
 
 ## Project Overview
 
-This project represents a significant contribution to LibreOffice Core, specifically implementing enhanced document tab functionality. Working within one of the world's largest open source office suites, this contribution demonstrates the ability to navigate complex codebases, implement user-facing features, and collaborate with a global development community.
+This project represents a comprehensive cloud integration suite for LibreOffice Core, fundamentally transforming how users interact with cloud storage services and team collaboration tools. By seamlessly integrating Google Drive, Dropbox, and Slack directly into the LibreOffice interface, this enhancement bridges the gap between desktop productivity and modern cloud-based workflows.
 
 ## 🎯 Problem & Solution
 
-**Challenge**: LibreOffice users frequently work with multiple documents simultaneously, but the existing interface lacked intuitive tab-based navigation similar to modern web browsers and text editors.
+**Challenge**: LibreOffice users were forced to manually manage files across multiple cloud platforms and switch between applications for team communication, creating workflow disruptions and reducing productivity in collaborative environments.
 
-**Solution**: Implemented a comprehensive document tab system that allows users to easily switch between open documents, manage multiple files efficiently, and maintain better workspace organization.
+**Solution**: Implemented a unified cloud integration system that provides native access to Google Drive and Dropbox storage, direct file synchronization, and embedded Slack communication features, all within the familiar LibreOffice interface.
 
 ## 🛠 Technical Architecture
 
