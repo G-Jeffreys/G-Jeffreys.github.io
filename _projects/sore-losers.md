@@ -31,10 +31,6 @@ Sore Losers is a competitive multiplayer game developed using the Godot Engine, 
   </a>
 </div>
 
-## 🎥 Gameplay Demo
-
-<div style="position: relative; padding-bottom: 64.98194945848375%; height: 0; margin: 2rem 0;"><iframe src="https://www.loom.com/embed/b28ceb556ef447a4a60148249447ff87?sid=cf589dea-2c01-4f20-9890-5affc23ae32d" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
 ## 🎮 Game Design & Concept
 
 **Genre**: Competitive Multiplayer  
