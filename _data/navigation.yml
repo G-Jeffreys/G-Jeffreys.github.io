@@ -14,9 +14,6 @@ main:
   - title: "Experience"
     url: /experience/    
     
-  - title: "Insights"
-    url: /blog/
-    
   - title: "About"
     url: /about/
     
