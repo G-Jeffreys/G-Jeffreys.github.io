@@ -20,6 +20,17 @@ highlights:
 
 Sore Losers is a competitive multiplayer game developed using the Godot Engine, demonstrating comprehensive game development skills from concept design to implementation. This project showcases the ability to create engaging interactive experiences while managing complex game systems and networking.
 
+## 🔗 Project Links
+
+<div style="margin: 2rem 0;">
+  <a href="https://github.com/G-Jeffreys/SoreLosers" target="_blank" class="btn btn--primary" style="margin-right: 1rem;">
+    <i class="fab fa-github"></i> View Code
+  </a>
+  <a href="https://georgegauntlet.itch.io/sorelosers" target="_blank" class="btn btn--success">
+    <i class="fas fa-gamepad"></i> Play Game
+  </a>
+</div>
+
 ## 🎥 Gameplay Demo
 
 <div style="position: relative; padding-bottom: 64.98194945848375%; height: 0; margin: 2rem 0;"><iframe src="https://www.loom.com/embed/b28ceb556ef447a4a60148249447ff87?sid=cf589dea-2c01-4f20-9890-5affc23ae32d" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>

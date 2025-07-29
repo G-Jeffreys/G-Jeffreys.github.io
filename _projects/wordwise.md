@@ -20,6 +20,17 @@ highlights:
 
 WordWise is a comprehensive academic writing assistant platform that serves as a research-focused alternative to Grammarly. Built specifically for scholarly writing, academic papers, and research documentation, this platform provides advanced grammar correction, style guidance, and citation assistance tailored for academic communities.
 
+## 🔗 Project Links
+
+<div style="margin: 2rem 0;">
+  <a href="https://github.com/G-Jeffreys/mckays-app-template" target="_blank" class="btn btn--primary" style="margin-right: 1rem;">
+    <i class="fab fa-github"></i> View Code
+  </a>
+  <a href="https://wordwise-one.vercel.app/documents" target="_blank" class="btn btn--success">
+    <i class="fas fa-external-link-alt"></i> Live Demo
+  </a>
+</div>
+
 ## 🎥 Platform Demo
 
 <div style="position: relative; padding-bottom: 57.75401069518716%; height: 0; margin: 2rem 0;"><iframe src="https://www.loom.com/embed/1e308d782661466da4baf88c7028ac98?sid=b633ab7a-ae5a-4edf-b7e1-acf300520c3c" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
