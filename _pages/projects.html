@@ -83,7 +83,7 @@ classes: wide
                   <i class="fab fa-github"></i> Code
                 </a>
               {% endif %}
-              {% if project.demo %}
+              {% if project.demo and project.demo != "#" %}
                 <a href="{{ project.demo }}" class="btn btn--outline" target="_blank">
                   <i class="fas fa-external-link-alt"></i> Live Demo
                 </a>

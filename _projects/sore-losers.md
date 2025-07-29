@@ -3,8 +3,8 @@ title: "Sore Losers - Game Development Project"
 excerpt: "Competitive multiplayer game built with Godot Engine, showcasing game development skills, real-time networking, and interactive gameplay mechanics."
 category: tools
 technologies: ["Godot Engine", "GDScript", "Game Design", "Multiplayer Networking", "UI/UX Design"]
-github: "https://github.com/G-Jeffreys/SoreLosers"
-demo: "https://georgegauntlet.itch.io/sorelosers"
+github: https://github.com/G-Jeffreys/SoreLosers
+demo: https://georgegauntlet.itch.io/sorelosers
 featured: true
 status: completed
 date: 2025-07-01

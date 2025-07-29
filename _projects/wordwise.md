@@ -3,8 +3,8 @@ title: "WordWise - Academic Writing Assistant"
 excerpt: "Research-focused writing enhancement platform built with Next.js, featuring AI-powered grammar correction, academic style guidance, and citation assistance. An academic-grade alternative to Grammarly for scholarly writing."
 category: fullstack
 technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Supabase", "Clerk Auth", "Stripe", "PostHog", "Drizzle ORM"]
-github: "https://github.com/G-Jeffreys/mckays-app-template"
-demo: "https://wordwise-one.vercel.app/documents"
+github: https://github.com/G-Jeffreys/mckays-app-template
+demo: https://wordwise-one.vercel.app/documents
 featured: true
 status: completed
 date: 2025-06-01

@@ -3,8 +3,8 @@ title: "LibreOffice Cloud Integration Suite"
 excerpt: "Comprehensive cloud service integration for LibreOffice Core, seamlessly connecting Google Drive, Dropbox, and Slack. Enhanced productivity through direct file synchronization, collaborative editing, and team communication features."
 category: tools
 technologies: ["C++", "LibreOffice Core", "Google Drive API", "Dropbox API", "Slack API", "Qt/GTK", "OAuth 2.0", "Cloud Storage"]
-github: "https://github.com/G-Jeffreys/core/tree/feature/document-tab"
-demo: "#" # Open source contribution
+github: https://github.com/G-Jeffreys/core/tree/feature/document-tab
+demo: "#"
 featured: true
 status: completed
 date: 2025-07-01
