@@ -125,41 +125,6 @@ Worked on parallelizing statistical software for the U.S. Census Bureau under NS
 
 ---
 
-## 📖 Research & Publications
-
-### **Peer-Reviewed Publications**
-
-**"Kähler Geometry of Framed Quiver Moduli and Machine Learning"**  
-*Foundations of Computational Mathematics* (2023)  
-*Co-author: Siu-Cheong Lau (Boston University)*
-
-Developed theoretical frameworks connecting algebraic geometry to neural network architectures. This work provides mathematical foundations for understanding machine learning models through geometric methods, bridging pure mathematics and AI applications.
-
-**"Quantum Finite Automata and Quiver Algebras"**  
-*Journal of Mathematical Physics* (2022)
-
-Explored connections between quantum computing models and algebraic structures, contributing to the theoretical understanding of quantum computation complexity.
-
-**"Noncommutative Geometry of Computational Models"**  
-*Advances in Mathematics* (2023)
-
-Investigated geometric approaches to understanding computational complexity, with applications to algorithm optimization and theoretical computer science.
-
-### **Conference Presentations**
-
-**Selected Invited Talks:**
-- **"Geometric Methods in Machine Learning"** - American Mathematical Society Annual Meeting (2023)
-- **"Mathematical Foundations of Neural Networks"** - SIAM Conference on Applied Mathematics (2022)
-- **"Algebraic Approaches to AI Theory"** - Joint Mathematics Meetings (2022)
-
-### **Research Impact**
-- **Citations**: 150+ citations across mathematics and computer science literature
-- **Interdisciplinary Bridge**: Work cited in both pure mathematics and machine learning research
-- **Industry Relevance**: Theoretical insights applicable to practical AI system optimization
-- **Open Source**: Mathematical software packages available on GitHub
-
----
-
 ## 🌟 Core Competencies
 
 ### **Technical Leadership**
